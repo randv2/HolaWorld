@@ -1,0 +1,8 @@
+    private static boolean esUnNumero(String loquesea) {
+        try {
+            Integer.parseInt(loquesea);
+            return true;
+        } catch (NumberFormatException nfe) {
+            return false;
+        }
+    }
